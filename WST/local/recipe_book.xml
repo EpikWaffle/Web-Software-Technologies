@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="recipe_book.xsl" ?>
+
+<recipe_book xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recipe_book.xsd">
+<dish>
+    <name>Rhubarb and Custard</name>
+    <ingredient>
+        <food>Milk</food>
+        <amount>15ml</amount>
+    </ingredient>
+    <ingredient>
+        <food>Rhubarb</food>
+        <amount>700g</amount>
+    </ingredient>
+    <ingredient>
+        <food>Custard Powder</food>
+        <amount>8tbs</amount>
+    </ingredient>
+    <instruction>Mix together and put in oven proof dish</instruction>
+    <instruction>Heat in a moderate oven for 40 mins</instruction>
+</dish>
+<dish>
+    <name>Cranberry Sauce</name>
+    <ingredient>
+        <food>Sugar</food>
+        <amount>200g</amount>
+    </ingredient>
+    <ingredient>
+        <food>Water</food>
+        <amount>250ml</amount>
+    </ingredient>
+    <ingredient>
+        <food>Cranberries</food>
+        <amount>12 oz</amount>
+    </ingredient>
+    <instruction>Boil water with sugar</instruction>
+    <instruction>Add cranberries and simmer for 10 minutes</instruction>
+</dish>
+<dish>
+    <name>Salsa Chicken</name>
+    <ingredient>
+        <food>Chicken Breast</food>
+        <amount>4 halves</amount>
+    </ingredient>
+    <ingredient>
+        <food>Taco Seasoning Mix</food>
+        <amount>4 teaspoons</amount>
+    </ingredient>
+    <ingredient>
+        <food>Salsa</food>
+        <amount>1 cup</amount>
+    </ingredient>
+    <ingredient>
+        <food>Shredded Cheddar Cheese</food>
+        <amount>1 cup</amount>
+    </ingredient>
+    <instruction>Season chicken on both sides and pour salsa all over</instruction>
+    <instruction>Bake at 375 degrees F for 25 to 35 minutes</instruction>
+    <instruction>Springkle with cheese and bake for additional 3 to 5 minutes</instruction>
+</dish>
+<dish>
+    <name>Grilled Cheese</name>
+    <ingredient>
+        <food>Bread</food>
+        <amount>2 slices</amount>
+    </ingredient>
+    <ingredient>
+        <food>Grated Cheddar</food>
+        <amount>1-2 ounces</amount>
+    </ingredient>
+    <ingredient>
+        <food>Butter</food>
+        <amount>(unspecified)</amount>
+    </ingredient>
+    <ingredient>
+        <food>Mayonnaise</food>
+        <amount>(unspecified)</amount>
+    </ingredient>
+    <instruction>On each slice of bread spread mayonnaise on one side and butter on the other</instruction>
+    <instruction>Put into a pan mayonnaise side down over medium-low heat</instruction>
+    <instruction>Spread cheese evenly on top of buttered slices</instruction>
+    <instruction>When cheese is halfway melted, flip one slice over on top of the other and press lightly</instruction>
+    <instruction>Continue to turn the sandwich and press gently until cheese is melted</instruction>
+</dish>
+</recipe_book>

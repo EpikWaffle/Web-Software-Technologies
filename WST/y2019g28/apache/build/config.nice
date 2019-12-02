@@ -1,0 +1,7 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/home/2019/y2019g28/apache" \
+"$@"

@@ -1,0 +1,47 @@
+<!-- Created: 10/26/03 12:01:45 by Julia -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional/EN">
+<html>
+
+<head>
+
+   <script language="javascript">
+   <!--
+   // Using Functions
+   
+   
+   function myAlert() {
+     window.alert("Hello");     
+   }
+   
+   function myAlert2(aString) { 
+     //this function takes parameter
+     // it also returns a value
+     window.alert("Alerting: " + aString);
+     return 34;
+   }
+   function twoStrings(string_one, string_two){
+	return string_one + " != " + string_two;
+	}
+   -->
+   </script>
+   
+   <title>Using Functions</title>
+</head>
+
+<body>
+
+<script language="javascript">
+<!--
+  document.write("Mr Pudding says: <b>Hi there</b><br />");
+  // Call functions and pass parameters, get return values
+   myAlert();
+   result = myAlert2("everyone") * 2;
+   document.write("The return value was: " + result);
+   result_two = twoStrings("this", "that");
+   document.write("The return string is: " + result_two);
+//-->
+</script>
+
+</body>
+</html>
+

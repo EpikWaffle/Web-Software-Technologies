@@ -1,0 +1,71 @@
+:root {
+--color1: #9fb6ea;
+--color2: #7C98B3;
+--color3: #F5E6E8;
+--color4: #C08497;
+--color5: white;
+--color6: #FFCAD4;
+--color7: #2A3E6B;
+/* rgb values*/
+--color11: 159, 182, 234;
+--color22: 124, 152, 179;
+--color33: 221, 213, 208;
+--color44: 184, 184, 170;
+--color55: 255, 255, 255;
+--color66: 200, 234, 211;
+}
+*{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#big-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 230% 60px;
+}
+#title-bar{
+    display: grid;
+    grid-row: 1;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px;
+}
+#title-bar a{
+    color: var(--color5);
+    text-decoration: none;
+    text-transform:uppercase;
+}
+.button{
+    background-color: rgba(var(--color11), 1);
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--color5);
+}
+.button:hover{background-color: rgba(var(--color11), 0.8);}
+#small-grid{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+#title{
+    grid-column: 2;
+    text-align: center;
+}
+#title h1{
+    padding-top: 10%;
+    color: var(--color7);
+}
+#left-column{
+    grid-column: 1;
+    background-color: var(--color3);
+}
+#right-column{
+    grid-column 3;
+    background-color: var(--color3);
+}
+#footer{
+    grid-row: 3;
+}
+#footer p{
+    text-align: right;
+    font-size: 10;
+}

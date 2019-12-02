@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional/EN">
+<html>
+<head>
+
+   <script language="javascript">
+   <!--
+   // 3 types of popup box - alert (messages only), confirm (yes/no), prompt (string)
+   // These popup boxes all use plain text not html (\n is allowed tho')
+   // they are all modal (blocking) 
+   
+   function wakeywakey() { // ALERT 
+     window.alert("*****************\n" + "You woke me up...\n\n" +
+                  "I was fast asleep\n*****************" );                      
+   }
+   
+   function askName() { // CONFIRM 
+     if (! confirm("Will your tell me your name please?")) {
+       window.alert("----------\nSob!....\nso\n" +
+                     "you don't want to tell me your name\n--------\n");
+     } else { //PROMPT       
+       var n = prompt("Enter name", "Belinda"); 
+       checkName(n);
+     }
+   }
+   
+   function checkName(name) {
+     var message = "";
+     
+     if (name.match(/[aeiou]/)) {
+       message = "\nYour name has a vowel in it";
+     }
+     window.alert("Hello there: " + name.toUpperCase() + message );
+   }//checkName
+function link(){ //PROMPT
+	var link = prompt("Enter link", "https://www.w3.org");
+	location = link;
+}
+
+
+   -->
+   </script>
+   
+   <title>Popups</title>
+
+</head>
+
+
+<body onLoad="wakeywakey()">
+<h1>And today's nonsense is ...</h1>
+Mr Pudding says: Do you want to go to 
+<a href="#" onMouseOver="self.status='Off to the Lemon';"
+            onMouseOut="self.status='';" >the Lemon</a>?
+<br />or would you prefer the  
+<a href="#" onMouseOver="self.status='Ah.... I see that you prefer the lime'; return true;"
+            onMouseOut="self.status='';">the Lime</a>?
+
+<p>
+<a href="#" onClick="askName(); return false"><img border=1 
+width=201 height=66 src="whatName.gif" title="What is Your Name?"></a> </p>
+<p><a href ="#" onClick="link(); return false">Give me a link!</a></p>
+</body>
+</html>

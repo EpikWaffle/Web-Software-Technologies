@@ -1,0 +1,72 @@
+<html>
+<head><!-- I am going to make the CSS files in the next week so things don't look great right now and I did add extra lines of code that currently don't do anything, but it's for when I add the CSS. -->
+<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<div id="big-grid">
+    <div id="title-bar">
+        <div class="button">
+            <a href=home.html><p>Home</p></a>
+        </div>
+        <div class="button">
+            <a href=about-me.html><p>About me</p></a>
+        </div>
+        <div class="button">
+            <a href=homework.html><p>Homework</p></a>
+        </div>
+    </div>
+    <div id="small-grid">
+        <div id="left-column">
+        </div>
+        <div id="title">
+            <h1>
+                Welcome to my website!    
+            </h1>   
+            <form
+                action = "/cgi-bin/survey.pl"
+                method="post">
+                <h2>
+                    Tell me about yourself! 
+                </h2>
+                <p />
+                
+                <h4>Name: </h4>
+                <p>
+                    <input type="text" name = "name">
+                </p>
+                
+                <h4>Age: </h4>
+                <p>
+                    <input type="text" name = "age">
+                </p>
+                
+                <h4>Gender: </h4>
+                <p>
+                    <input type="radio" name = "gender" value = "male" checked = "checked" /> Male <br />
+                    <input type="radio" name = "gender" value = "female" checked = "checked" /> Female <br />
+                    <input type="radio" name = "gender" value = "idk" checked = "checked" /> Prefer Not to Answer <br />
+                </p>
+                
+                <h4>Email Address: </h4>
+                <p>
+                    <input type="text" name = "email">
+                </p>
+                <p>
+                    <input type = "submit" value = "Submit" />
+                    <input type = "reset" value = "Clear" />
+                </p>
+            </form>
+            <hr/>
+            <p>
+                Wanna see the results? Click <a href= "/cgi-bin/results.pl">
+                here
+                </a>
+            </p>
+        </div>
+        <div id="right-column">
+        </div>
+    </div>
+    <div id="footer">
+        <p>© 2019 Johnson Lin</p>
+    </div>
+</div>
+</html>
